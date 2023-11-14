@@ -5,7 +5,7 @@ TFL web application has a PlanYourJourney widget needs tested on different scena
 
 SpecFlowTFL.Specs is a test project using the NUnit framework containing 5 simple tests in TFL.feature and step definitions defined in PlanYourJourneyStepDefinitions.cs
 
-Design:
+**Design:**
 
 This test project uses a standard SpecFlow .Net 6 C# template to acheive this coding challenge.
 Every scenario opens a new browser, deletes and accepts cookies so cookies will persist per session.
