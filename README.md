@@ -7,7 +7,7 @@ SpecFlowTFL.Specs is a test project using the NUnit framework containing 5 simpl
 
 **Design:**
 
-This test project uses a standard SpecFlow .Net 6 C# template to acheive this coding challenge.
-Every scenario opens a new browser, deletes and accepts cookies so cookies will persist per session.
-Driver wait time is set to 20 seconds so the program will wait for 20 seconds for elememts to appear in some scenarios(Example: Search Results)
-Recent tab does not bring the search history for the first time when Chrome is running under test mode. This scenario is searching for the journey twice to mock the results.
+1. This test project uses a standard SpecFlow .Net 6 C# template to acheive this coding challenge.
+2. Every scenario opens a new browser, deletes and accepts cookies so cookies will persist per session.
+3. Driver wait time is set to 20 seconds so the program will wait for 20 seconds for elememts to appear in some scenarios(Example: Search Results)
+4. Recent tab does not bring the search history for the first time when Chrome is running under test mode. This scenario is searching for the journey twice to mock the results.
